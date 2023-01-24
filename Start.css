@@ -23,6 +23,44 @@
     color : #000;
     text-align: center;
     font-size: 60px;
-    height:100px;
+    height:80px;
     font-family: 'a고딕15';
+}
+
+.StartButton {
+  position: relative;
+  background-color: #FF7D37;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "a고딕12";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  margin:auto;
+  display:block;
+}
+
+.StartButton:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 770px) {
+  .StartButton {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
 }
